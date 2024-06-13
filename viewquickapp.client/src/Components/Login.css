@@ -1,0 +1,91 @@
+.color{
+    color: red;
+}
+
+.containersanju{
+      width: 400px;
+      margin: 0px 850px;
+      margin-top: 100px;
+      padding: 50npx;
+      border: 2px solid black ;
+      background-color: darkgray;
+      border-radius: 10px; 
+      margin-left: 800px;
+      padding-right: 0px;
+}
+.input_box{
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    height: 40px;
+    margin: 10px;
+    color:black;
+}
+.label{
+    display: flex;
+}
+.form-control{
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--bs-body-color);
+    appearance: none;
+    background-color: var(--bs-body-bg);
+    background-clip: padding-box;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    border-radius: var(--bs-border-radius);
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.ng-invalid:not(form) {
+    border-left: 5px solid #dc3545;
+}
+
+.ng-valid {
+    border-left: 5px solid #198754;   
+}
+
+.is-valid .ng-select.form-control {
+    border-color: #198754;
+    padding-right: calc(1.5em + .75rem);
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23198754' d='M2.3 6.73.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right calc(.375em + .1875rem) center;
+    background-size: calc(.75em + .375rem) calc(.75em + .375rem)
+} 
+.form-control:focus {
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem #0d6efd40;
+}
+
+.header{
+    width: 1410px;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.RegisterLogo{
+    display: flex;
+    height: 500px;
+    width: 600px;
+    margin:50px 80px;
+    position:absolute;
+   
+}
+.submitbtn{
+    display: block;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    height: 50px;
+    width: 310px;
+    cursor: pointer;
+    margin-left: 10px;
+}
